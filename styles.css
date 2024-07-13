@@ -3,11 +3,8 @@ body {
     margin: 0;
     padding: 0;
     background-color: #ffffff;
-   /* background: url('https://unsplash.com/photos/pink-and-black-wallpaper-9XngoIpxcEo') no-repeat center center fixed;*/
-  /*  background-size: cover;
-    color: #333;*/
    /* position: relative;*/
-    background-image: url('https://images.unsplash.com/photo-1567400358510-f027b3196d5b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-image: url('Images/bg.jpg');
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center; 
@@ -32,6 +29,10 @@ header {
     padding: 1em 0;
     text-align: center;
     position: relative;
+    width: 96.5%;
+    margin-left: 6px;
+    margin-top: 6px;
+    border-radius: 7px;
 }
 .translucent-header {
     background-color: rgba(0, 0, 0, 0.5); 
@@ -124,6 +125,7 @@ footer {
     /* position: fixed; */
     /* bottom: 0; */
     flex-shrink: 0;
+    margin-bottom: 6px;
 }
 
 
