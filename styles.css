@@ -70,7 +70,9 @@ nav ul li a {
 
 nav ul li a:hover {
     background-color: #555;
+   
 }
+
 
 main {
     display: flex;
@@ -113,6 +115,8 @@ main {
 
 .project-link:hover {
     background-color: #555;
+    transform: scale(1.1);
+    transition: 0.3s;
 }
 
 footer {
@@ -151,3 +155,4 @@ footer {
     margin-left: 20px;
    
 }
+
