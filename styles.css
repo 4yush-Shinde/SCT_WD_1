@@ -151,6 +151,7 @@ footer {
     margin-left: 5px;
     /* margin-bottom: -75px; */
     border-radius: 5px;
+    padding-bottom: 4px;
 }
 
 .logo {
@@ -162,3 +163,24 @@ footer {
    
 }
 
+.logo #github:hover {
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+    
+}
+
+.logo #linkedin:hover {
+    transform: scale(1.15);
+    transition-duration: 0.2s;
+    
+}
+
+.logo #github:active {
+    transform: scale(0.8);
+    
+}
+
+.logo #linkedin:active {
+    transform: scale(0.8);
+    
+}
